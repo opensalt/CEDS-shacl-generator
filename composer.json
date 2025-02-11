@@ -7,14 +7,15 @@
         "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "sweetrdf/easyrdf": "^1.16.1",
+        "league/csv": "^9.21.0",
+        "ml/json-ld": "^1.2.1",
         "symfony/console": "7.2.*",
         "symfony/dotenv": "7.2.*",
-        "symfony/flex": "^2",
+        "symfony/flex": "^2.4.7",
         "symfony/framework-bundle": "7.2.*",
         "symfony/runtime": "7.2.*",
         "symfony/yaml": "7.2.*"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
@@ -65,5 +66,8 @@
             "allow-contrib": false,
             "require": "7.2.*"
         }
+    },
+    "require-dev": {
+        "symfony/maker-bundle": "^1.62.1"
     }
 }
